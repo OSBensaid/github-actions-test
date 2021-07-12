@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echco "Oussama Bensaid"
+        run: echo "Oussama Bensaid"
       
       - name: mutiline script
         run: |
@@ -17,3 +17,4 @@ jobs:
         run: |
           import platform
           print(platform.processor)
+        shell: python

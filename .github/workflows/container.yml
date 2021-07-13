@@ -1,7 +1,7 @@
 name: Container
 on: push
 
-job:
+jobs:
   node-docker:
     runs-on: ubuntu-latest
     container: 
